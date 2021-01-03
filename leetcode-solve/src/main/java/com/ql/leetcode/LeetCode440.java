@@ -5,14 +5,14 @@ package com.ql.leetcode;
  * @date: 2021-01-02 17:18
  * 440. 字典序的第K小数字
  **/
-public class Leetcode440 {
+public class LeetCode440 {
 
     public static void main(String[] args) {
-        System.out.println(new Leetcode440().findKthNumber(13, 10));
+        System.out.println(new LeetCode440().findKthNumber(13, 10));
     }
 
     public int findKthNumber(int n, int k) {
-        //cuurent 表示当前前缀节点
+        //current 表示当前前缀节点
         int current = 1;
         //因为 1 <= k <= n <= 10^9 所以删除0节点
         k = k - 1;
