@@ -29,6 +29,7 @@ public class LeetCode199 {
         }
         Queue<TreeNode> nodeQueue = new LinkedList<>();
         nodeQueue.offer(root);
+        //层序遍历
         while (!nodeQueue.isEmpty()) {
             int size = nodeQueue.size();
             for (int i = 0; i < size; i++) {
@@ -40,7 +41,7 @@ public class LeetCode199 {
                 if (node.right != null) {
                     nodeQueue.offer(node.right);
                 }
-
+                //取每一层最后一个加入
                 if (i == size -1) {
                     result.add(node.val);
                 }
