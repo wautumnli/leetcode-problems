@@ -7,7 +7,7 @@
 
 ### ✅LeetCode 31. 下一个排列
 
-### LeetCode 46 全排列
+### ✅LeetCode 46 全排列
 
 ### LeetCode 54. 螺旋矩阵
 
