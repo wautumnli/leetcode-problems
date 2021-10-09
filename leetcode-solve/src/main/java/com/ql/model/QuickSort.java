@@ -11,8 +11,8 @@ import java.util.stream.Collectors;
 public class QuickSort {
 
     public static void main(String[] args) {
-        int[] array = {1,3,1,4,5,6,1,2,4,6,3};
-        new QuickSort().quickSort(array,0, array.length - 1);
+        int[] array = {1, 3, 1, 4, 5, 6, 1, 2, 4, 6, 3};
+        new QuickSort().quickSort(array, 0, array.length - 1);
         for (int i : array) {
             System.out.print(i + " ");
         }
@@ -40,7 +40,7 @@ public class QuickSort {
 
         array[left] = array[i];
         array[i] = key;
-        quickSort(array, left, j-1);
-        quickSort(array, j+1, right);
+        quickSort(array, left, j - 1);
+        quickSort(array, j + 1, right);
     }
 }
