@@ -42,7 +42,7 @@ public class LeetCode199 {
                     nodeQueue.offer(node.right);
                 }
                 //取每一层最后一个加入
-                if (i == size -1) {
+                if (i == size - 1) {
                     result.add(node.val);
                 }
             }
