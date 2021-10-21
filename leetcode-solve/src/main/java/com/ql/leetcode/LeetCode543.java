@@ -1,6 +1,6 @@
 package com.ql.leetcode;
 
-import com.ql.leetcode.pojo.TreeNode;
+import com.ql.pojo.TreeNode;
 
 /**
  * @author: wautumnli

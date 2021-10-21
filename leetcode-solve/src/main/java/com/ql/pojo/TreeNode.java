@@ -1,4 +1,4 @@
-package com.ql.leetcode.pojo;
+package com.ql.pojo;
 
 /**
  * @author wanqiuli

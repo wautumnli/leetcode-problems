@@ -1,6 +1,6 @@
 package com.ql.leetcode;
 
-import com.ql.leetcode.pojo.TreeNode;
+import com.ql.pojo.TreeNode;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
