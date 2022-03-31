@@ -6,7 +6,7 @@ package com.ql.jianzhi;
  */
 public class Jz14I {
     public int cuttingRope(int n) {
-        // todo 需要推导该数学工时
+        // todo 需要推导该数学公式
         // todo dp方法解决
         if (n <= 3) {
             return n - 1;
