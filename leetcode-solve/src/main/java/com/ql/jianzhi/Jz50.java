@@ -6,6 +6,13 @@ package com.ql.jianzhi;
  */
 public class Jz50 {
 
+    /**
+     * function is firstUniqChar
+     * todo 存在最优解
+     *
+     * @param s the s
+     * @return the {@link char} data
+     */
     public char firstUniqChar(String s) {
         int[] array = new int[26];
         for (int i = 0; i < s.length(); i++) {
