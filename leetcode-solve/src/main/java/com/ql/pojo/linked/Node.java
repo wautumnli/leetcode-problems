@@ -1,0 +1,24 @@
+package com.ql.pojo.linked;
+
+/**
+ * @author wanqiuli
+ * @date 2022/4/14 12:47
+ */
+public class Node {
+    public int val;
+    public Node left;
+    public Node right;
+
+    public Node() {
+    }
+
+    public Node(int _val) {
+        val = _val;
+    }
+
+    public Node(int _val, Node _left, Node _right) {
+        val = _val;
+        left = _left;
+        right = _right;
+    }
+}
